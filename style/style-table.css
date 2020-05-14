@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Avenir;
+    font-size: 13;
+}
+table.dataframe {
+    border-collapse: collapse;
+    border: none;
+}
+table.dataframe tr {
+    border: none;
+}
+table.dataframe td, table.dataframe th {
+    margin: 0;
+    border: 1px grey;
+    padding-left: 1.50em;
+    padding-right: 1.50em;
+    text-align: center;
+}
+table.dataframe th:not(:empty) {
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+table.dataframe tr:nth-child(2) th:empty {
+    border-left: none;
+    border-right: 1px dashed #888;
+}
+table.dataframe td {
+    background-color: #ffffff;
+}
